@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+int i,n;
+printf("Print the odd numbers upto:%d\n",n);
+scanf("%d",&n);
+for(i=0;i<=n;i+=2)
+{
+printf("%d\n",i);
+}
+return 0;
+}
